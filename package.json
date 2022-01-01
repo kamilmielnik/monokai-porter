@@ -7,7 +7,7 @@
     "vscode": "*"
   },
   "scripts": {
-    "release": "np"
+    "release": "np --no-tests"
   },
   "repository": {
     "type": "git",
