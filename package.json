@@ -6,6 +6,9 @@
   "engines": {
     "vscode": "*"
   },
+  "scripts": {
+    "release": "np"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamilmielnik/monokai-porter.git"
@@ -31,5 +34,8 @@
       }
     ]
   },
-  "icon": "./icon.png"
+  "icon": "./icon.png",
+  "devDependencies": {
+    "np": "^7.6.0"
+  }
 }
