@@ -1,0 +1,35 @@
+{
+  "name": "monokai-porter",
+  "displayName": "Monokai Porter",
+  "description": "Editor theme based on Monokai High Fructose. No italics.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilmielnik/monokai-porter.git"
+  },
+  "author": {
+    "name": "Kamil Mielnik",
+    "email": "kamil.adam.mielnik@gmail.com",
+    "url": "https://kamilmielnik.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamilmielnik/monokai-porter/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Porter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-porter.tmTheme"
+      }
+    ]
+  },
+  "icon": "./icon.png"
+}
