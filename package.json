@@ -2,7 +2,7 @@
   "name": "monokai-porter",
   "displayName": "Monokai Porter",
   "description": "Editor theme based on Monokai High Fructose. No italics.",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "engines": {
     "vscode": "*"
   },
