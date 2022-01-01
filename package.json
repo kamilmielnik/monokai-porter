@@ -30,7 +30,7 @@
       {
         "label": "Monokai Porter",
         "uiTheme": "vs-dark",
-        "path": "./themes/monokai-porter.tmTheme"
+        "path": "./monokai-porter.tmTheme"
       }
     ]
   },
