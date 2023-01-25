@@ -1,0 +1,191 @@
+/*
+ * This theme was auto generated!
+ *
+ * Parts of this theme may differ
+ * from the original, and color
+ * definitions using 'alpha'
+ * might not convert properly.
+ *
+ * Tool created by Judah Caruso
+ * https://github.com/kyoto-shift
+ *
+ * License: MIT
+*/
+{
+    "name": "Monokai - Porter",
+    "color_space_name": "sRGB",
+    "variables": {
+        "color00": "#201f22",
+        "color01": "#ffffff",
+        "color02": "#3B3A32",
+        "color03": "#2c2b2f",
+        "color04": "#413557",
+        "color05": "#000000",
+        "color06": "#be9a67",
+        "color07": "color(#9D550F alpha(0.69))",
+        "color08": "color(#F8F8F2 alpha(0.65))",
+        "color09": "#5f5f5f",
+        "color10": "#ffff63",
+        "color11": "#a87aff",
+        "color12": "#ff005e",
+        "color13": "#41ffff",
+        "color14": "#dcff00",
+        "color15": "#ffb800",
+        "color16": "#655c2d"
+    },
+    "globals": {
+        "background": "var(color00)",
+        "caret": "var(color01)",
+        "foreground": "var(color01)",
+        "invisibles": "var(color02)",
+        "line_highlight": "var(color03)",
+        "selection": "var(color04)",
+        "selection_foreground": "var(color05)",
+        "inactive_selection": "var(color05)",
+        "inactive_selection_foreground": "var(color06)",
+        "find_highlight": "var(color06)",
+        "find_highlight_foreground": "var(color05)",
+        "active_guide": "var(color07)",
+        "brackets_foreground": "var(color08)",
+        "brackets_options": "underline",
+        "bracket_contents_foreground": "var(color08)",
+        "bracket_contents_options": "underline",
+        "tags_options": "stippled_underline"
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(color09)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(color10)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(color11)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(color11)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(color11)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(color12)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(color12)"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(color13)"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(color14)"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(color14)"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "font_style": "bold",
+            "foreground": "var(color14)"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "var(color15)"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(color12)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(color14)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(color13)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(color13)"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(color13)"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "background": "var(color12)",
+            "foreground": "var(color01)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "background": "var(color11)",
+            "foreground": "var(color01)"
+        },
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "var(color16)"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(color12)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(color14)"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(color10)"
+        },
+        {
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "foreground": "var(color05)"
+        },
+        {
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "var(color10)"
+        }
+    ]
+}
