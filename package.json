@@ -9,6 +9,7 @@
   "scripts": {
     "release": "np --no-tests"
   },
+  "publisher": "Kamil Mielnik",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamilmielnik/monokai-porter.git"
